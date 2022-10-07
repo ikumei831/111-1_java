@@ -5,7 +5,7 @@ public class test6 {
         Scanner input = new Scanner(System.in);
         System.out.println("grade:");
         int grade = input.nextInt();
-        if (grade <= 100) {
+        if (grade <= 100 || grade >= 0) {
             switch (grade / 10 * 10) {
                 case 100:
                 case 90:
