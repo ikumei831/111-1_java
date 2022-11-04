@@ -4,7 +4,7 @@ public class test15 {
         int i = 0;
         String a = "";
         for (i = 6; i > 0; i--) {
-            for (j = 0; j < i; j++) {
+            for (j = 0; j < i - 1; j++) {
                 System.out.print("*");
             }
             a += -(i - 7);
